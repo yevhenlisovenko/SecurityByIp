@@ -1,6 +1,6 @@
 <?php
 	
-$key = 'fb781ed4afdab682fe21844827734584';	
+$key = 'your_key';	
 	
 if (isset($_GET['key']) && $_GET['key'] = $key){
 	$ipArr = explode(".", $_SERVER['REMOTE_ADDR']);
